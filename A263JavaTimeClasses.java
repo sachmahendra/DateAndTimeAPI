@@ -35,8 +35,7 @@ public class A263JavaTimeClasses {
         MonthDay md = MonthDay.now();
 
         Period p =Period.of(2,2,10);
-        System.out.println("2 :"+p);
-
+        System.out.println("2 :"+p.addTo(LocalDate.now()));
 
         Instant i=Instant.now();
         System.out.println("4 :"+i);
